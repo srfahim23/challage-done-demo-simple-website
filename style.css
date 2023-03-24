@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+.first-section {
+    display: flex;
+    width: 100%;
+    /* background-color: green; */
+}
+
+/* text area in first section */
+.text-div {
+    width: 50%;
+    /* background-color: greenyellow; */
+    margin-left: 2%;
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 20px black;
+    /* margin-right: 20px; */
+    margin-bottom: 20px;
+    /* overflow-x: hidden; */
+
+}
+
+.text-div h1,
+h2,
+p,
+a {
+    margin: 10px;
+    padding: 12px;
+}
+
+.text-div>h1 {
+    font-size: 33px;
+}
+
+.name {
+    color: red;
+}
+
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(tomato, orange);
+    padding: 5px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    margin-left: 20px;
+    color: white;
+    font-size: 10px;
+}
+
+/* image area in first section  */
+.image-div {
+    width: 50%;
+    /* background-color: greenyellow; */
+    margin-left: 2%;
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 20px black;
+    margin-right: 2px;
+    margin-bottom: 20px;
+}
+
+.image-div>img {
+    width: 100%;
+    margin: 14px;
+    margin-top: 20px;
+    padding: 20px;
+
+}
+
+
+/* second section  */
+
+/* image area  */
+.second-section {
+    width: 100%;
+    display: flex;
+    /* border: 2px solid rgb(2, 2, 2); */
+    /* border-radius: 20px; */
+    /* margin: 20px; */
+}
+
+.image-area {
+    width: 50%;
+    border-right: 2px solid red;
+    /* border-top: 2px solid red; */
+    border-radius: 20px;
+    margin: 20px;
+
+}
+
+.image-area>img {
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+/* text area  */
+.text-area {
+    width: 50%;
+    border-left: 2px solid green;
+    /* border-top: 2px solid green; */
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+/* third section  */
+.third-section {
+    display: flex;
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(border.png) 30 stretch;
+}
+
+/* web developer  */
+.web-developer {
+    width: 50%;
+    margin: 20px;
+    padding: 14px;
+    box-shadow: 10px 10px 20px green;
+    box-shadow: 10px 10px 20px rgb(60, 63, 60);
+
+}
+
+.web-designer {
+    width: 50%;
+    /* background-color: green; */
+    margin: 20px;
+    padding: 14px;
+    box-shadow: 10px 10px 20px green;
+    box-shadow: 10px 10px 20px rgb(60, 63, 60);
+}
+
+.web-desginer h1 {
+    margin: 13px;
+    padding: 13px;
+
+
+}
+
+footer{
+    color: red;
+    text-align: center;
+    
+}
